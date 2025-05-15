@@ -7,4 +7,4 @@ This repository contains the static website for Scentetiques, including:
 - Home page
 - Shop page with sample products
 
-Deployed via GitHub Pages at: [https://yourusername.github.io/scentetiques-site](https://yourusername.github.io/scentetiques-site)
+Deployed via GitHub Pages at: https://preshi56.github.io/scentetiques-site
