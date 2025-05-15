@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scentetiques</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fdf6f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      padding: 1rem;
+      color: #a64ac9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      width: 250px;
+      padding: 1rem;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    .product h3 {
+      margin: 0.5rem 0 0.25rem;
+    }
+    .product p {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .product button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #a64ac9;
+      border: none;
+      color: white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #fceffb;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scentetiques</h1>
+    <p>Curating Elegance Through Scents and Style</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+  </nav>
+
+  <section id="home" class="section">
+    <h2>Welcome to Scentetiques</h2>
+    <p>Explore the luxury of handcrafted perfumes and aesthetic lifestyle essentials. Where fragrance meets beauty.</p>
+  </section>
+
+  <section id="shop" class="section">
+    <h2>Shop Our Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Rose+Glow" alt="Rose Glow Perfume" />
+        <h3>Rose Glow</h3>
+        <p>A romantic blend of roses and amber.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Ocean+Whispers" alt="Ocean Whispers Perfume" />
+        <h3>Ocean Whispers</h3>
+        <p>Fresh marine notes with a soft floral twist.</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Scentetiques. All rights reserved.
+  </footer>
+</body>
+</html>
